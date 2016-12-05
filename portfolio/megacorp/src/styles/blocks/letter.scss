@@ -1,0 +1,14 @@
+.letter{	
+	height: 140px;	
+	border-bottom:1px solid $darkGrey;
+	margin-top:35px;
+
+	&__title{
+		margin-bottom: 20px;
+	}
+
+	&__content{
+		line-height: 25px;
+		text-indent: 20px;
+	}
+}

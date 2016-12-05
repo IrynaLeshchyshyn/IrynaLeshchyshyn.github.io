@@ -1,0 +1,49 @@
+body{
+	font-family:$mainFontFamily;
+	background: red; /* Для старых браузров */
+	background: -webkit-repeating-linear-gradient(45deg,  $backgroundLightGrey 2px,$backgroundDarkGrey 10px);
+	background: -moz-repeating-linear-gradient(45deg, $backgroundLightGrey 2px, $backgroundDarkGrey 10px);
+	background: -o-repeating-linear-gradient(45deg, $backgroundLightGrey 2px,  $backgroundDarkGrey 10px);
+	background: repeating-linear-gradient(45deg,  $backgroundLightGrey 2px, $backgroundDarkGrey 10px);
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+h1, h2, h3, h4, p, span{
+	color:$lightGrey;
+	font-weight: 100;
+	margin:0;
+	padding:0;
+}
+
+h1{
+	font-size:39px;
+	}
+h2 {
+	font-size:26px;
+	color:$normalCrey;
+	}
+h3 {
+	font-size:18px;
+	}
+h4 {
+	font-weight: 900;
+	font-size:16px;
+}
+
+p{font-size:13px;
+}
+
+a{
+	font-size:20px;
+	color:black;
+
+	&:hover {
+		color:$whiteColor;
+	}
+}
+@media (max-width: 1200px) {
+	h1{font-size:20px}
+}

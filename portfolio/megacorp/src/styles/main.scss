@@ -1,0 +1,40 @@
+$button-blue-normal: #2B8FC4;
+$button-blue-hover: #167cb2;
+$mainFontFamily:'Open Sans';
+$whiteColor:#FFFFFF;
+$lightGrey:#CFCFCF;
+$normalCrey:#686868;
+$darkGrey:#686868;
+//color for main background
+$backgroundLightGrey:#23282d;
+$backgroundDarkGrey:#171a1d;
+
+
+@import 'variables';
+@import 'mixins';
+@import 'base';
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
+//plagins
+
+@import 'vendor/animate.css';
+@import 'vendor/bootstrap.css';
+@import 'vendor/bootstrap-theme.css';
+@import 'vendor/slick.css';
+@import 'vendor/slick-theme.css';
+
+
+
+//modyles
+@import 'modules/buttons';
+
+//styles
+@import 'blocks/header';
+@import 'blocks/service';
+@import 'blocks/carousel-products';
+@import 'blocks/gadget';
+@import 'blocks/news';
+@import 'blocks/companys-life';
+@import 'blocks/letter';
+@import 'blocks/sell';
+@import 'blocks/design-by';

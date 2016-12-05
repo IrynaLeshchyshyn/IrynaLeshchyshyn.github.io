@@ -1,0 +1,52 @@
+.sell{
+	/*width:100%;
+	height:126px;
+	display:block;
+	border-bottom:1px solid $darkGrey;
+	overflow:hidden;
+	padding-top:20px;
+	padding-bottom:20px;*/
+
+
+	&__image-container{
+		/*height:80px;*/
+		width:80px;
+		border:1px solid black;
+		border-radius:4px;
+		margin-right:20px;
+		float: left;
+		display: block;
+		
+	}
+
+	&__about-product{
+	line-height:25px;
+	height:100px;
+	overflow:hidden;	
+	}
+
+	&__tab-container{
+		margin: 10px 1px
+	}
+
+}
+
+//change bootstrap styles
+.sell__tab-container .nav-tabs>li.active>a,
+.sell__tab-container .nav-tabs>li.active>a:focus,
+.sell__tab-container .nav-tabs>li.active>a:hover {
+       background-color: transparent;
+       border-color:transparent; 
+
+}
+.sell__tab-container .nav-tabs>li>a{
+	border-color:transparent; background-color: transparent;line-height: none;
+}
+.sell__tab-container .nav>li>a {    
+    padding: 0;
+    line-height: none;
+}
+
+.sell__tab-container .nav-tabs {
+     border-bottom: none; 
+}

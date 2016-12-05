@@ -1,0 +1,28 @@
+.gadget{
+	
+	margin:auto;
+
+	&__title{
+		text-align: center;
+		margin-top:64px;
+	}
+
+	&__icon-container{
+		
+		width: 100px;
+		margin: auto;
+		border:1px solid black;
+		margin: 40px auto; 
+	}
+
+	&__model{
+		height: 40px;
+		border-bottom: 1px solid $darkGrey;
+		list-style-type:square;
+		/*list-style-position:inside;*/
+
+		p{
+			line-height: 40px;
+		} 
+	}
+}
