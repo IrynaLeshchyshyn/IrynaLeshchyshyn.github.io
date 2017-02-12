@@ -1629,8 +1629,8 @@ $(document).ready(function(){
 
 
 	//header icon
-	$( '.page-header__menu-icon' ).click(function() {
-		$( '.navigation' ).slideToggle(500);
+	$( '.navigation' ).click(function() {
+		$( this ).toggleClass("show");
 	});
 
   	

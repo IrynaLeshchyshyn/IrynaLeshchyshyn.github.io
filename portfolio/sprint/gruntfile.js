@@ -6,7 +6,7 @@ module.exports = function(grunt) {
       files: [{
         expand: true,
         cwd: 'src/styles',
-        src: ['main.scss'],
+        src: ['*.scss'],
         dest: 'src/styles',
         ext: '.css'
       }]
@@ -15,7 +15,7 @@ module.exports = function(grunt) {
   
   concat:{
    dist:{
-      src:['src/styles/variables.scss','src/styles/base.scss','src/styles/style.scss'],
+      src:['src/styles/style.scss'],
       dest:'src/styles/main.scss'
     },
 
@@ -39,6 +39,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-concat');
 
-  grunt.registerTask('default', ['sass'],['watch'],['concat']);
+  grunt.registerTask('default',['sass'],['watch'],['concat']);
 
 };
