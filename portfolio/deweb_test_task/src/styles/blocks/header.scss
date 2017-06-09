@@ -1,0 +1,16 @@
+.header{
+	width:100%;
+	height:60px;
+	background: #52545d; /* Old browsers */
+	background: -moz-linear-gradient(top,  #52545d 1%, #383a43 99%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #52545d 1%,#383a43 99%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #52545d 1%,#383a43 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#52545d', endColorstr='#383a43',GradientType=0 ); /* IE6-9 */
+
+	&__event-name-container{
+		height:60px;
+	}
+}
+
+
+

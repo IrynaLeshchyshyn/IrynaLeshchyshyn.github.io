@@ -1,0 +1,80 @@
+//style for small button
+.button-small{
+	border-radius:20px;
+	border:2px solid $green;	
+	width:100%;
+	height:100%;
+	background-color: transparent;
+	color:$green;
+	font-family:$fontBold;
+	font-size:13px;
+	line-height: 24px;
+	text-transform:uppercase;
+	
+		
+		&:hover{
+			background:$green;
+		color:$white;
+		}	
+	}
+
+		
+
+
+.button-line{
+	background:transparent;
+	border:none;
+	width:100%;
+	height:100%;
+	color:white;
+}
+
+
+//button change language in header
+.button-language{
+	background:transparent;
+	border:none;
+	color:white;
+	font-family:$fontBold;
+	font-size:13px;
+	width:100%;
+	height:100%;
+
+	.active{
+			color:$green;
+		}	
+}
+
+.button-general{
+	border:none;
+	border-radius:20px;
+	width:100%;
+	height:100%;
+	background-color: $green;
+ 	color:white;
+	font-family:$fontBold;
+	font-size:14px;
+	text-transform: uppercase;
+	line-height: 34px;text-transform:uppercase;
+	-webkit-transition:all 0.5s linear;
+		    transition:all 0.5s linear;
+
+
+	
+
+		&:hover{		
+			color:$green;border:2px solid $green;
+		background:white;
+		color:$green;
+		-webkit-transform:scale(1.1);
+        transform:scale(1.1);
+		}
+
+}
+
+.button-close{
+	width:100%;
+	height:100%;
+	background:url(../images/close-button.png)0 0 no-repeat;
+	border:transparent;text-transform:uppercase;
+}

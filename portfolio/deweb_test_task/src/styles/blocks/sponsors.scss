@@ -1,0 +1,40 @@
+.sponsors{
+	height: 543px;
+	background:$white;
+	padding-top: 84px;
+
+	&__title{
+		font-family: $fontBold;
+		color:$lightGrey;
+		margin-bottom: 81px;
+	}
+
+	&__description{
+		font-family: $fontBold;
+		color:$lightGrey;
+		font-size: 17px;
+	    line-height: 24px;
+	    position:relative;
+	    padding-left: 34px;
+
+	    &:after{ 	
+	    	content: '';
+		    position: absolute;
+		    height: 35px;
+		    width: 2px;
+		    border: 1px solid $lightGrey;
+		    left: 1px;
+		    top: 6px;
+	    }
+	}
+
+	&__button-become-sponsore{
+		width:200px;
+		height: 35px;		
+		margin-top:10px; 
+	}
+
+	&__logo {
+		    margin-bottom: 41px;
+	}
+}
