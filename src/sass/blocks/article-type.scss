@@ -1,0 +1,52 @@
+.article-type{
+	height: 32px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: flex-start;
+    display-wrap: nowrap;
+    border-bottom: 1px solid #ccccb8;
+    margin-top: 20px;
+    margin-bottom: 18px;
+	
+    &__cell{
+		display: flex;
+		list-style: none;
+		align-items: center;
+		position:relative;
+
+		a {
+			font-family:$MyriadProRegular;
+			font-weight: normal;
+			font-size:14px;
+			color:$grey;
+			margin-right: 16px;
+		    height: 32px;
+		    line-height: 32px;
+		}
+	}	
+}
+
+.article-type__cell .active{
+		color:#cc0000;		
+	}
+
+.article-type__cell .active:after{
+    width: 10px;
+    height: 10px;
+    content: '';
+    display: block;
+    margin-left: -13px;
+    position: absolute;
+    left: 50%;
+    bottom: -7px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-right-color: #ccccb8;
+    border-bottom-color: #ccccb8;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 50%;
+    -ms-transform-origin: 50%;
+    transform-origin: 50%;
+}

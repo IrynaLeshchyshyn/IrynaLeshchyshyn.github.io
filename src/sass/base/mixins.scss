@@ -1,0 +1,11 @@
+@mixin top-fonts{
+	color: $white;
+	font-family:$MyriadProRegular;
+	font-weight: normal;
+}
+
+@mixin social-sprite{
+	background:url(../images/icon/social-icons-sprite.png) no-repeat;
+	width: 35px;
+	height: 24px;
+}

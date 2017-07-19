@@ -1,0 +1,18 @@
+.share{
+	width:49px;
+	height:38px;
+	background:url(../images/icon/share-icon.png)  50% 50% no-repeat;
+	outline:0;
+	border: none;
+	position:relative;
+
+	&:before{
+		content: '';
+		width: 1px;		
+		background-color:$white ;
+		height: 30px;
+		position: absolute; 
+		left: 0;
+		top: 3px;
+	}
+}
