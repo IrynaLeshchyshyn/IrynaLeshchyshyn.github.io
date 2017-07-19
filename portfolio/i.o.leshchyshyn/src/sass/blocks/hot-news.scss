@@ -1,0 +1,56 @@
+.hot-news{
+	height:auto;
+    max-width: 290px;
+    min-width: 230px;
+	border-bottom:1px solid $light-grey;
+	margin:auto;
+	margin-bottom:5px;
+
+	&__images{
+	 	margin-bottom: 12px;
+
+		img{
+		    width: auto;
+		    height: auto;
+		    max-width: 100%;
+		    display: block;
+		}
+	}
+
+	&__title{
+		color:$grey;
+		line-height: 19px;
+		margin-bottom: 10px;
+		font-family: $MyriadProRegular;
+
+		&--top-hot{
+			color:$dark-grey;
+			font-family: $MyriadProSemibold;
+		}
+	}
+
+	&__date{
+		font-size: 12px;
+	    font-family: "Myriad-Pro-Regular";
+	    color:$light-grey;margin-bottom: 16px;
+	    display: block;
+	}
+}
+
+.latest-news-more{
+	text-align:center;
+	font-family:$MyriadProRegular;
+	color:$grey;
+	font-weight:normal;width:100%;
+}
+
+
+
+@media screen and(max-width:1400px){
+	.hot-news:nth-child(14){display:none;}
+	.hot-news:nth-child(15){display:none;}
+}
+
+@media screen and(max-width:1400px){
+	.hot-news{padding:0 10px}
+}

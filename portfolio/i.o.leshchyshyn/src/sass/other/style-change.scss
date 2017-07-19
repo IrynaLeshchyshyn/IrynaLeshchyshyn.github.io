@@ -1,0 +1,83 @@
+//change styles for Slick slider,slider in header
+
+.slick-slide{
+	position:relative;
+}
+.slick-dots li button {
+	background:url(../images/slider-foto/dots.png) 0 0 no-repeat;
+	margin:2px;
+}
+
+.slick-dots li{
+	display:block;
+	height:38px;
+	float:none;
+}
+
+.slick-dots li.slick-active button{
+	color:transparent;
+	opacity:1;
+	background:url(../images/slider-foto/dots-active.png) 0 0 no-repeat;
+}
+.slick-dots li button:before{
+	height:35px;
+	left:2px;
+	content:'';
+}
+.slick-dots{
+	bottom:0;
+	top:103px;
+}
+
+.slick-dots li button{
+	height:31px;
+}
+
+
+.slick-dotted.slick-slider{
+	margin-bottom:0;
+}
+.slick-prev, .slick-next{
+	display:none !important;
+}
+
+
+
+//change styles for Lightslider (photo galery) 
+.lSSlideOuter .lSPager.lSGallery { 
+    width: 100% !important;
+    overflow: hidden;
+    position: absolute;
+    top: 85%;
+    left: 0;
+    height: 60px;   
+}
+.lSSlideOuter .lSPager.lSGallery li{
+	width:90px !important;
+	height:60px !important;
+	position:relative;
+}
+
+.lSSlideOuter .lSPager.lSGallery li:after{
+	width: 90px;
+	display:block;
+	height: 60px;
+	opacity: 0.5;
+	content:'';
+	background-color: black;
+	position:absolute;
+	top:0;
+	left: 0;		
+	z-index: 9999999999999999999999999999;
+}
+
+.lSSlideOuter .lSPager.lSGallery li.active:after {
+	opacity: 0;
+	content:'';		
+}
+
+
+.lSSlideOuter .lSPager.lSGallery li.active, .lSSlideOuter .lSPager.lSGallery li:hover {
+    border-radius: 0;
+    border:1px solid $white;
+}
