@@ -1,0 +1,41 @@
+.title-carousel{
+	font-size:32px;
+	font-family: $fontGilroyBold;    
+    font-weight: 700; 
+    margin:0; 
+    color:white;
+}
+
+@media screen and (max-width:768px){
+	.title-carousel{
+		font-size: 28px;
+	}
+}
+
+
+.title-presentation {
+    padding: 0 0 70px 0;
+    text-transform: uppercase;
+    color: $darkGrey;
+    width: 500px;
+    font-weight: 300;
+    text-align: center;
+    margin: auto;
+    display: block;   
+}
+
+.title-featured{
+	font-size: 23px;
+	color:$darkGrey;
+	font-weight: 400;
+	font-family:$fontGilroyBold;
+	text-transform:none;
+	padding-bottom:26px;
+}
+
+.title-community{
+	color:$green;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 106px;
+}

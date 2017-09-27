@@ -1,0 +1,45 @@
+.taba{
+	height:310px;	
+	width:100%;
+	padding-top:53px;
+	overflow:hidden;
+
+	&__icon{		
+		height: 100%;
+		display: block;
+			}
+	&__title{
+		font-size: 25px;
+		font-weight: 300;
+		color:$green;
+		line-height: 50px;
+	}
+
+	&__text{
+		font-size: 18px;
+		font-weight: 400;
+		color:$grey;
+		line-height: 25px;
+	}
+	&__description{
+		height: 100%;
+		display: block;
+		text-align: left;
+		padding: 0 20px;		
+	}
+
+	&__img{
+		width: 117px;
+		height: 117px;
+		margin:auto;
+		background: url(../../src/image/sprite_tabs.png) 0 0 no-repeat;
+		background-position: -59px 0px;
+
+		&--second-tab{
+			background-position: -176px 0px;
+		}
+		&--third-tab{
+			background-position: -293px 0px;
+		}
+	}
+}

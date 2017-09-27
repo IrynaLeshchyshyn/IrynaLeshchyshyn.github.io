@@ -1,0 +1,88 @@
+//colors
+*{
+	padding:0;
+	margin:0;
+	margin-top:0;
+	margin-bottom:0;
+}
+
+body{
+	padding:20px 0;
+    min-width: 640px;
+
+}
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1{
+	font-size:50px;
+    font-family: $fontEvogria;    
+    font-weight: 400;    
+}
+
+h2{
+	font-size:39px;
+    font-family: $fontBebas;    
+    font-weight: 400;    
+}
+
+h3{
+	font-size:31px;
+    font-family: $fontGilroyBold;    
+    font-weight: 700; 
+    margin:0;   
+
+}
+
+h5{
+	font-size:20px;
+    font-family: $fontGilroyLight;    
+    font-weight: 600;
+    margin:0; 
+}
+
+h4{
+	font-size:14px;
+    font-family: $fontGilroyLight;    
+    font-weight: 600;
+    margin:0; 
+}
+p{
+    margin:0 0 0 0; 
+}
+
+a:hover,
+a:focus,
+a:visited,
+a:link {
+	text-decoration:none;	
+}
+button:focus, 
+button:active,
+button:hover{
+	outline:0;
+	//border:none;
+}
+@mixin textMinContent{
+    font-size: 12px;
+    color: $grey;
+    line-height: 20px; font-family: $fontEvogria;  
+}
+
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {   
+    outline: none;
+}
+
+.textMainContent{
+    font-size:17px;
+    color:$grey;
+    line-height:25px;
+    font-weight:300;
+}
