@@ -1,0 +1,23 @@
+.headers-buttons{
+	display:flex;
+	flex-wrap:nowrap;
+	justify-content:space-around;
+	align-items: center;
+    height: 60px;
+
+
+	&__buy-ticket{
+		width:140px;
+		height:28px;
+	}
+
+	&__line-container{
+		height:28px;
+		width:30px;
+	}
+
+	&__language-container{
+		height:28px;
+		width:32px;	
+	}
+}

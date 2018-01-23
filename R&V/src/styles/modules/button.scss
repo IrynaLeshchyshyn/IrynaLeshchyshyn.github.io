@@ -1,0 +1,99 @@
+//button in header
+.button-main {
+	width: 100%;
+	height:100%;
+	color:white;
+	font-family:$EtelkaLightProRegular;
+	font-size:24px;
+	text-align:center;
+	border:1px solid white;
+	-webkit-transition:all 1s linear;
+	transition:all 1s linear;
+
+	&:hover{
+		background: #0580b1;
+		opacity:0.5;
+		-webkit-transform:scale(1.1);
+		transform:scale(1.1);		
+	}
+}
+
+.button-watch-video{
+	width: 187px;
+	height: 40px;	
+	text-align:center;
+	position: relative;
+
+	span{
+		font-size: 19px;
+    	padding-left: 35px;		
+		color:$ButtonVideo;
+		text-transform:uppercase;
+	}
+
+	&:before {
+		content:'';
+		position:absolute;
+		width:34px;
+		height: 34px;
+		background: url(../images/video-play-icon.png)0 0 no-repeat;
+		top:50%;			
+		margin-top:-17px;
+		left: 2px;				
+	}
+}
+
+.button-close-video-popup{
+	position:absolute;
+	width:54px;
+	height:25px;
+	top: 7px;
+    right: 82px;
+	background:black;
+	color:white;
+	font-weight:bold;
+}
+
+
+.button-read-blog-container{
+	width: 100px;
+	height:27px;
+    margin: 10px 0 10px 11px;
+	display: inline-block;
+}
+.button-read-blog{
+	width: 100%;
+	height:100%;
+	border-radius:14px;
+	color:$blogButtonText;
+	background:$blogButtonBackground;
+
+	a{
+		color:$blogLink;
+		text-align: center;
+	}
+}
+
+.button-read-more{
+	width:100%;
+	height:100%;
+	-webkit-transition: all 0.5s linear;
+	  transition: all 0.5s linear;
+	-webkit-transform: translateX(0);
+    transform: translateX(0);
+
+
+
+	a {
+		color:$blogLink;
+		text-align: left;
+		font-size: 12px;
+		font-family: $sfuiTextRegular;
+	}
+
+	&:hover{
+		-webkit-transform: translateX(50%);
+        transform: translateX(50%);
+		color:rgb(5, 128, 177);		
+	}
+}

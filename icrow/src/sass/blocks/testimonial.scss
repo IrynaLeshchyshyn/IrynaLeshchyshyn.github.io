@@ -1,0 +1,35 @@
+.testimonial{
+	height:280px;
+	margin-top:40px;
+
+	&__background{
+		background:white;
+		border-radius:10px;
+		padding: 20px;
+		margin-bottom: 30px;
+		position:relative;
+
+		:after{
+			content:'';
+			left:50%;
+			top:100%;
+			position:absolute;
+			width: 0;
+			height: 0;
+			margin-left:-10px;
+			border-top: 20px solid white; 
+			border-right: 20px solid transparent;			
+		}
+	}
+
+	&__title{
+		font-size: 20px;
+		color: $green;
+		font-weight: 200;
+		line-height: 50px;
+	}
+	&__content{
+		@include textMinContent;
+		line-height: 20px;
+	}
+}

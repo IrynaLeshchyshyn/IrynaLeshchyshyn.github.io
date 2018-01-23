@@ -1,0 +1,37 @@
+// page structure
+
+.header-button-container{
+	width: 234px;
+	height: 65px;
+	margin: 17px 0 0 15px;
+}
+
+@media screen and(max-width:750px){
+	.header-button-container{
+		margin: auto;
+	}
+}
+
+
+
+.carousel{
+	padding-top: 22px;
+    padding-bottom: 59px;
+}
+
+.development-container{
+	padding-top: 24px;
+	//display:flex;
+	//justify-content:space-between;
+	padding-bottom:20px;
+
+	&:after{
+		content:'';
+		width: 100%;
+		height: 2px;
+		border-bottom:1px solid #b1b1b1;
+		position:absolute;
+		top: 4px;
+		left:0;
+	}
+}

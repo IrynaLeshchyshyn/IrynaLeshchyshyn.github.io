@@ -1,0 +1,27 @@
+.buy-ticket{
+	height: 380px;
+	background:url(../images/forms_background.png) 0 0 no-repeat;
+	background-size:cover;
+	text-align:center;
+	overflow:hidden;
+
+	&__title{
+	    color:$white;
+	    text-align: center;
+	    margin-top: 118px;
+	    margin-bottom: 51px;
+	}
+
+	&__button-buy-ticket{
+		width: 200px;
+	    height: 35px;
+	    margin: auto;
+	    margin-bottom: 20px;
+	}
+
+	&__actual-price{
+		font-size: 12px;
+		font-family: $fontItalic;
+		color:$white;
+	}
+}    

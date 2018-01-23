@@ -1,0 +1,45 @@
+.blog-card{
+	height: auto;
+	overflow:hidden;
+	width:auto;
+
+	&__image{
+		width: 100%;
+	    height: auto;
+	    background-size: cover;
+	    margin-bottom:-3px; 
+		-webkit-transition: all 0.5s linear;
+		transition: all 0.5s linear;
+
+	&:hover{
+		-webkit-transform: scale(1.1);
+	    transform: scale(1.1);
+	}
+
+	}
+
+	&__title a{
+		font-family: $sfuiTextBold;
+		color:$titleBlack;
+		height:auto;
+		margin: 22px 0 0 0;
+		display: block;
+		line-height: 18px;		
+	}
+
+	&__text-content{
+		overflow: hidden;
+   		height: 47px;
+		font-size: 11px;
+		color:$titleBlack;
+		font-family: $sfuiTextRegular;
+		margin: 10px 0 0 0;
+	    display: block;
+	}
+	
+	&__read-more-container{
+		width:63px;
+		height: 20px;
+		margin-top: 4px;		
+	}
+}
